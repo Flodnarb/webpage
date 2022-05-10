@@ -1,3 +1,49 @@
-body {
-    padding:0;
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: space-between;
+    gap: 8px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.welcome {
+    color: white;
+}
+
+.content {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-weight: x bold;
+    font-size: 48px;
+}
+
+button {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
