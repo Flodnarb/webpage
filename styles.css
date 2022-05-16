@@ -2,6 +2,9 @@ html {
     overflow: scroll;
 }
 
+body {
+    margin: 0;
+}
 
 header {
     background-color: #1F2937;
@@ -98,4 +101,22 @@ img {
 
 .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.info {
+    display: flex;
+}
+
+.items {
+    display: flex;
+}
+
+.items button {
+    background-color: transparent;
+    border-width: 3px;
 }
