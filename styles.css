@@ -104,7 +104,9 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 12px;
+    padding-bottom: 8%;
+    gap: 8px;
 
 }
 
@@ -114,9 +116,60 @@ img {
 
 .items {
     display: flex;
+    justify-content: center;
+    width: 238px;
+    gap: 15%;
 }
 
 .items button {
     background-color: transparent;
     border-width: 3px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    padding: 8%;
+}
+
+.quote p {
+    color: #1F2937;
+    
+}
+
+.plato {
+    font-style: Arial;
+    font-weight: bold;
+}
+
+.modal {
+    color: white;
+    margin: 100px 200px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    gap: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6
+
+}
+
+.butt button {
+    border-color: white;
+}
+
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 1%;
 }
